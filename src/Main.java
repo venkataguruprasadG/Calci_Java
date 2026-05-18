@@ -3,5 +3,11 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world ! Calculator is here to help....!!");
+
+        inputHandler handler = new inputHandler();
+
+        String userChoice = handler.getOperation();
+
+        System.out.println("You choose to " + userChoice);
         }
     }
